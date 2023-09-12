@@ -33,5 +33,5 @@ const titulo='El futuro rey de los piratas';
 const age='19';
 
 console.log("Soy "+ name + " y yo sere " + titulo + " y tengo "+ age + "años");
-console.log(`Soy ${name} y yo sere ${titulo} y tengo ${age} años`);
-
+console.log(`Soy ${name} y yo sere ${titulo} y tengo ${age} años`); //esto es con el altgr + } + espacio
+ 
