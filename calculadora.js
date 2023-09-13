@@ -29,3 +29,8 @@ const vaciar=()=>{
     const valores=getValues();
     result.value=""; 
 }
+
+const random=()=>{
+    num1.value=Math.round(Math.random()*100000);
+    num2.value=Math.round(Math.random()*100000);
+}
