@@ -19,7 +19,7 @@ const funOne=()=>{
     console.log('Ejecuta funcione one');
 }
 
-const funTWo=(username)=>{
+const funTwo=(username)=>{
     console.log('Ejecuta función Two');
     console.log('Holi uwu '+username)
 }
@@ -31,7 +31,7 @@ const funThree =(otherFuntion)=>{
 }
 
 funOne();
-funTWo('Abraham');
-funTWo('Ab');
+funTwo('Abraham');
+funTwo('Ab');
 funThree(funOne);
 funThree(()=> console.log('Soy una Arrow function que no se que sea D:'))
