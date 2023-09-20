@@ -3,17 +3,17 @@ function distributeGifts(packOfGifts, reindeers) {
     let totalRenos = 0;
 
     packOfGifts.forEach(
-        gift => totalGifts += gift.length
+        gift => totalGifts=gift.length
     );
     
     reindeers.forEach(
-        reinder => totalRenos += reinder.length*2
+        reinder => console.log(reinder.length*2)
     );
 
-    return Math.floor(totalRenos/totalGifts);
+    return 0    
   }
 
-const packOfGifts = ["book", "doll", "ball"]
+  const packOfGifts = ["book", "doll", "ball"]
 const reindeers = ["dasher", "dancer"]
 
 
