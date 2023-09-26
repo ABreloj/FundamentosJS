@@ -11,7 +11,7 @@ function eightball(){
             answer='Preocupate, todo saldrá mal D:'
             break;
         case 3:
-            answer='Mañana te respondo'
+            answer='Y si en vez de estar perdiento tu tiempo en esta pagina web te pones a solucionar tus problemas'
             break;
         case 4:
             answer='Enserio le cuentas tus problemas a una bola 8 virtual?'
@@ -26,7 +26,7 @@ function eightball(){
             answer='Preguntame mañana'
             break;
         case 8:
-            answer='Algún día pasara'
+            answer='Estas totalmete consiente de que las respuestas que doy son totalmente al azar y programadas por un random, y que por nada del mundo deberias darle importancia para tu vida'
             break;
         
 
